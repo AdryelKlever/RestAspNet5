@@ -22,7 +22,6 @@ C:\Users\adrye\source\repos\RestAspNet5\RestAspNet5\RestAspNet5\obj\Debug\net5.0
 C:\Users\adrye\source\repos\RestAspNet5\RestAspNet5\RestAspNet5\obj\Debug\net5.0\staticwebassets\RestAspNet5.StaticWebAssets.xml
 C:\Users\adrye\source\repos\RestAspNet5\RestAspNet5\RestAspNet5\obj\Debug\net5.0\scopedcss\bundle\RestAspNet5.styles.css
 C:\Users\adrye\source\repos\RestAspNet5\RestAspNet5\RestAspNet5\obj\Debug\net5.0\RestAspNet5.RazorTargetAssemblyInfo.cache
-C:\Users\adrye\source\repos\RestAspNet5\RestAspNet5\RestAspNet5\obj\Debug\net5.0\RestAspNet5.csproj.CopyComplete
 C:\Users\adrye\source\repos\RestAspNet5\RestAspNet5\RestAspNet5\obj\Debug\net5.0\RestAspNet5.dll
 C:\Users\adrye\source\repos\RestAspNet5\RestAspNet5\RestAspNet5\obj\Debug\net5.0\ref\RestAspNet5.dll
 C:\Users\adrye\source\repos\RestAspNet5\RestAspNet5\RestAspNet5\obj\Debug\net5.0\RestAspNet5.pdb
