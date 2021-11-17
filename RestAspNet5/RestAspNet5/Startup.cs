@@ -11,6 +11,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using RestAspNet5.Services;
+using RestAspNet5.Services.Implementations;
 
 namespace RestAspNet5
 {
@@ -28,9 +30,12 @@ namespace RestAspNet5
         {
 
             services.AddControllers();
+
+            services.AddScoped<IPersonService, PersonServiceImplemetation>();
+
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "RestAspNet5", Version = "v1" });
+                c.SwaggerDoc("v2", new OpenApiInfo { Title = "RestAspNet5", Version = "v2" });
             });
         }
 
@@ -41,7 +46,7 @@ namespace RestAspNet5
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "RestAspNet5 v1"));
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v2/swagger.json", "RestAspNet5 v2"));
             }
 
             app.UseHttpsRedirection();
